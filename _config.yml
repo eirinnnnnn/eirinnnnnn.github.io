@@ -6,7 +6,7 @@ remote_theme: just-the-docs/just-the-docs
 # theme: minima
 
 url: "https://eirinnnnnn.github.io"
-baseurl: ""
+baseurl: "/eirinnnnnn.github.io"
 
 # Just the Docs options
 just_the_docs:
