@@ -8,8 +8,8 @@ nav_order: 1
 
 Hi there! I write about communication engineering, information theory, and math.
 
-- 📚 **Notes**: see [Notes](./notes)
-- 🧪 **Projects**: 
+- 📚 [**Notes**](./notes)
+- 🧪 [**Projects**](./projects) 
 <!-- - 🧮 Supports inline math like $I(X;Y) = H(X) - H(X\mid Y)$. -->
 
 > This site is powered by GitHub Pages + Jekyll (Just the Docs).

@@ -8,7 +8,7 @@ nav_order: 2
 
 A curated list of my HackMD documents and local posts.
 
-## HackMD (external)
+## HackMD 
 
 <!-- - **Soft decoding (KV) quick notes** — <https://hackmd.io/@<your-hackmd-handle>/<note-id-1>>
 - **Guruswami–Sudan (GS) scratchpad** — <https://hackmd.io/@<your-hackmd-handle>/<note-id-2>>
