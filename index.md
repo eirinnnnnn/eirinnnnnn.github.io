@@ -11,6 +11,8 @@ Hi there! I write about communication engineering, information theory, and math.
 - 📚 [**Notes**](./notes)
 - 🧪 [**Projects**](./projects) 
 
+
+## my recent favorite equations
 $$ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
 \quad \text{in } \mathbb{F}_{q^{m}}[x] $$
 

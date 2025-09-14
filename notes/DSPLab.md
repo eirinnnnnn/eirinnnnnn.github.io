@@ -21,13 +21,10 @@ carrier frequency $f_c=40$ kHz, signal bandwidth $f_w = \frac{1}{T_\mathrm{butst
 
 given a sampled received signal $x(t)$
 - **Bandpass Filter**  
-$$
-
-x_\mathrm{bpf}(t) = x(t) * h_\mathrm{bpf}(t)
-
-$$
+$$ x_\mathrm{bpf}(t) = x(t) * h_\mathrm{bpf}(t) $$
 The choice of our bandpass fiter is the $6$ order iir butterworth. 
-with the bandwidth (```HalfPowerFrequency```) to be $f_c \pm 2f_w$ 
+with the bandwidth (```HalfPowerFrequency```) to be $ f_c \pm 2f_w $ 
+
 ```matlab
 bp_bw = max(2*fw, 12e3);            
 bp_f1 = max(10, fc - bp_bw);           

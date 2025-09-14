@@ -21,8 +21,6 @@ just_the_docs:
 markdown: kramdown
 kramdown:
   input: GFM
-  math_engine: mathjax
-  hard_wrap: false
 
 plugins:
   - jekyll-feed
