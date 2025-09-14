@@ -1,19 +1,15 @@
-<!-- MathJax
-<script>
-  window.MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']] } };
-</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
 <!-- MathJax v3 -->
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$','$']],
-      displayMath: [['$$','$$']]
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']]
     },
     options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
   };
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 
 <!-- Site CSS -->
