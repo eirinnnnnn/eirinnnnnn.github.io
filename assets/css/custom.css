@@ -16,7 +16,19 @@
 }
 
 /* Dark (system pref OR manual toggle via [data-theme="dark"]) */
-:root[data-theme="dark"], @media (prefers-color-scheme: dark) {
+:root[data-theme="dark"] {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0f14;
+    --fg: #e6edf3;
+    --muted: #9aa4b2;
+    --bg-alt: #0f141a;
+    --card: #0f141a;
+    --border: #1f2937;
+    --link: #8ab4f8;
+    --code-bg: #10151b;
+  }
+}
+@media (prefers-color-scheme: dark) { 
   :root:not([data-theme="light"]) {
     --bg: #0b0f14;
     --fg: #e6edf3;
