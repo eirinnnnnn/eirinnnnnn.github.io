@@ -1,11 +1,11 @@
-title: "Eirin — Notes & Projects"
+title: "Eirin"
 description: "Communication engineering, information theory, and math notes."
 # Use a supported Jekyll theme via remote_theme (works on GitHub Pages)
 remote_theme: just-the-docs/just-the-docs
 # If you prefer a built-in theme, comment the line above and use one of:
 # theme: minima
 
-url: "https://eirin.github.io"
+url: "https://eirinnnnnn.github.io"
 baseurl: ""
 
 # Just the Docs options
@@ -14,7 +14,7 @@ just_the_docs:
   search_enabled: true
   nav_external_links:
     - title: HackMD Workspace
-      url: https://hackmd.io/@<your-hackmd-handle>
+      url: https://hackmd.io/@eirinnnnnn
       hide_icon: false
 
 # Markdown + Math

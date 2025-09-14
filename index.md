@@ -6,7 +6,7 @@ nav_order: 1
 
 # Eirin
 
-Helll, I write about communication engineering, information theory, and math.
+Hi there! I write about communication engineering, information theory, and math.
 
 - 📚 **Notes**: see [Notes](./notes)
 - 🧪 **Projects**: 
