@@ -1,45 +1,6 @@
-<!-- MathJax -->
+<!-- Extra head content: MathJax (for Just the Docs) -->
 <script>
   window.MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']] } };
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<!-- Site CSS -->
 <link rel="stylesheet" href="/assets/css/custom.css">
-
-<!-- Dark mode toggle (respects system preference; persists in localStorage) -->
-<script>
-(function() {
-  const LS_KEY = 'jtd-color-scheme';
-  const root = document.documentElement;
-  const saved = localStorage.getItem(LS_KEY);
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const scheme = saved || (prefersDark ? 'dark' : 'light');
-  root.dataset.theme = scheme;
-
-  function setScheme(next) {
-    root.dataset.theme = next;
-    localStorage.setItem(LS_KEY, next);
-  }
-
-  window.toggleColorScheme = function() {
-    setScheme(root.dataset.theme === 'dark' ? 'light' : 'dark');
-  };
-
-  document.addEventListener('DOMContentLoaded', function() {
-    const btn = document.createElement('button');
-    btn.className = 'theme-toggle';
-    btn.type = 'button';
-    btn.title = 'Toggle dark mode';
-    btn.onclick = window.toggleColorScheme;
-    btn.textContent = root.dataset.theme === 'dark' ? '☾ Dark' : '☼ Light';
-
-    const obs = new MutationObserver(() => {
-      btn.textContent = root.dataset.theme === 'dark' ? '☾ Dark' : '☼ Light';
-    });
-    obs.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
-
-    (document.querySelector('.site-header') || document.body).appendChild(btn);
-  });
-})();
-</script>
