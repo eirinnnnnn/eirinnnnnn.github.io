@@ -11,6 +11,10 @@ Hi there! I write about communication engineering, information theory, and math.
 - 📚 [**Notes**](./notes)
 - 🧪 [**Projects**](./projects) 
 
+\[ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
+\quad \text{in } \mathbb{F}_{q^{m}}[x]. \]
+
+\[ N_d = \frac{1}{d} \sum_{k \mid d} \mu(k)\, q^{d/k}. \]
 
 ### Recently obsessed in:
 - [Nerds: a menifesto](https://youtu.be/6v9-Cp1Lkw4?feature=shared) Go check acapella science!!!
