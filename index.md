@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Eirin
+# Eirin's homepage
 
 Hi there! I write about communication engineering, information theory, and math.
 
