@@ -29,7 +29,7 @@ $$ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
 - Jungian
 - Knots in Physics
 - Ito calculus
-- Godel, Escher, Bach (Hofstard)
+- Godel, Escher, Bach (Hofstadter)
 
 
 ## Don't be hesitate to contact me!
