@@ -8,11 +8,9 @@ nav_order: 1
 
 Hi there! I write about communication engineering, information theory, and math.
 
-Oh, and if you wonder, the icon of this website is the young Max Planck before he get into physics, and this is him after 
+Oh, and if you wonder, the icon of this website is the young Max Planck before he get into physics, and this is him during the discovery of quantum physics 
 
-
-
-![Alt text describing figure](/assets/img/physic_planck.png)
+![Alt text describing figure](/assets/img/phsic_planck.png)
 
 - 📚 [**Notes**](./notes)
 - 🧪 [**Projects**](./projects) 
