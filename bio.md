@@ -8,7 +8,7 @@ nav_order: 2
 - B.S. in Department of Electrical and Electronic Engineering, National Yang-Ming Chiao-Tung University, Hsinchu City, Taiwan (2022.09-now)
 
 - M.S. in Institute of Communication Engineering, National Yang-Ming Chiao-Tung University, Hsinchu City, Taiwan (2025.09-now)
-    - advisor: [Pf. Yu-Chih (Jerry) Huang](https://sites.google.com/site/ycjerryhuang/)
+    - advisor: [Prof. Yu-Chih (Jerry) Huang](https://sites.google.com/site/ycjerryhuang/)
 
 
 
