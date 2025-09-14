@@ -8,6 +8,12 @@ nav_order: 1
 
 Hi there! I write about communication engineering, information theory, and math.
 
+Oh, and if you wonder, the icon of this website is the young Max Planck before he get into physics, and this is him after 
+
+
+
+![Alt text describing figure](/assets/img/physic_planck.png)
+
 - 📚 [**Notes**](./notes)
 - 🧪 [**Projects**](./projects) 
 
@@ -23,6 +29,7 @@ $$ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
 - Jungian
 - Knots in Physics
 - Ito calculus
+- Godel, Escher, Bach (Hofstard)
 
 
 ## Don't be hesitate to contact me!
