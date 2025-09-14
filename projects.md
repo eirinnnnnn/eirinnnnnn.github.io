@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Projects 
-nav_order: 2
+nav_order: 3
+has_children: true
 ---
 
 # Projects 
@@ -15,4 +16,5 @@ A convex optimization-based problem solving excercise.
 
 Final project of CCC's ECC course (NTHU Spring2025). Decoding RS using polynomial interpolation.
 
-- []()
+- [**DDPM Denoising Modulated Signals**](<https://github.com/eirinnnnnn/ddpm_denoising_modulated_signal>)
+Using DDPM as a denoiser in downlink receiver.
