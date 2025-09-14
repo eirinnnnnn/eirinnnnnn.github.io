@@ -1,38 +1,19 @@
 title: "Eirin's Sharings "
 description: "Communication engineering, information theory, and math notes."
-# Use a supported Jekyll theme via remote_theme (works on GitHub Pages)
-remote_theme: just-the-docs/just-the-docs
-# If you prefer a built-in theme, comment the line above and use one of:
-# theme: minima
 
 url: "https://eirinnnnnn.github.io"
 baseurl: ""
 
-# Just the Docs options
-just_the_docs:
-  logo: 
-  search_enabled: true
-  nav_external_links:
-    - title: HackMD Workspace
-      url: https://hackmd.io/@eirinnnnnn
-      hide_icon: false
+# Theme
+remote_theme: just-the-docs/just-the-docs
 
-# Markdown + Math
+# Markdown engine
 markdown: kramdown
 kramdown:
   input: GFM
 
+# GitHub Pages build helpers
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
-
-# Collections (optional)
-collections:
-  posts:
-    output: true
-
-# Build settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
+  - jekyll-feed
