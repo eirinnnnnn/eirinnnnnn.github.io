@@ -40,10 +40,10 @@
     btn.type = 'button';
     btn.title = 'Toggle dark mode';
     btn.onclick = window.toggleColorScheme;
-    btn.textContent = root.dataset.theme === 'dark' ? '☾ Dark' : '☼ Light';
+    btn.textContent = root.dataset.theme === 'dark' ? '☾' : '☼';
 
     const obs = new MutationObserver(() => {
-      btn.textContent = root.dataset.theme === 'dark' ? '☾ Dark' : '☼ Light';
+      btn.textContent = root.dataset.theme === 'dark' ? '☾' : '☼';
     });
     obs.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
 

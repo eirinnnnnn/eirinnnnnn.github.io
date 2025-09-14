@@ -73,3 +73,63 @@ pre, code, .highlighter-rouge { background: var(--code-bg); }
   cursor: pointer;
 }
 .theme-toggle:hover { filter: brightness(1.05); }
+
+/* ==== Dark-mode header & sidebar contrast fixes ==== */
+:root[data-theme="dark"] {
+  /* base */
+  --jtd-bg: #0b0f14;
+  --jtd-fg: #e6edf3;
+  --jtd-muted: #9aa4b2;
+  --jtd-link: #8ab4f8;
+  --jtd-border: #243041;
+
+  /* header / sidebar */
+  --jtd-header-bg: #0b0f14;   /* was too dark-grey; align with page bg */
+  --jtd-header-fg: #e6edf3;
+  --jtd-sidebar-bg: #0b0f14;
+  --jtd-sidebar-fg: #e6edf3;
+}
+
+/* Header */
+:root[data-theme="dark"] .site-header {
+  background: var(--jtd-header-bg) !important;
+  color: var(--jtd-header-fg) !important;
+  border-bottom: 1px solid var(--jtd-border) !important;
+}
+:root[data-theme="dark"] .site-title,
+:root[data-theme="dark"] .site-header a,
+:root[data-theme="dark"] .site-header .site-button {
+  color: var(--jtd-header-fg) !important;
+}
+
+/* Sidebar */
+:root[data-theme="dark"] .side-bar {
+  background: var(--jtd-sidebar-bg) !important;
+  color: var(--jtd-sidebar-fg) !important;
+  border-right: 1px solid var(--jtd-border) !important;
+}
+:root[data-theme="dark"] .nav-list .nav-list-link,
+:root[data-theme="dark"] .nav-list .nav-list-link:hover {
+  color: var(--jtd-sidebar-fg) !important;
+}
+
+/* Body + headings */
+:root[data-theme="dark"] body { background: var(--jtd-bg); color: var(--jtd-fg); }
+:root[data-theme="dark"] .main-content h1,
+:root[data-theme="dark"] .main-content h2,
+:root[data-theme="dark"] .main-content h3,
+:root[data-theme="dark"] .main-content h4,
+:root[data-theme="dark"] .main-content h5,
+:root[data-theme="dark"] .main-content h6 { color: var(--jtd-fg); }
+
+/* Links & inputs */
+:root[data-theme="dark"] a { color: var(--jtd-link); }
+:root[data-theme="dark"] .search-input {
+  background: #10151b; color: var(--jtd-fg);
+  border: 1px solid var(--jtd-border);
+}
+
+/* Toggle button (optional, for readability) */
+:root[data-theme="dark"] .theme-toggle {
+  background: #10151b; color: var(--jtd-fg); border-color: var(--jtd-border);
+}
