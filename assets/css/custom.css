@@ -1,3 +1,75 @@
-/* Minor polish */
+/* Brand accent */
 :root { --brand-color: #0ea5e9; }
 .site-title, .site-button { color: var(--brand-color); }
+
+/* --- Color tokens --- */
+:root {
+  /* Light (default) */
+  --bg: #ffffff;
+  --fg: #1f2937;
+  --muted: #6b7280;
+  --bg-alt: #f8fafc;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --link: #2563eb;
+  --code-bg: #f3f4f6;
+}
+
+/* Dark (system pref OR manual toggle via [data-theme="dark"]) */
+:root[data-theme="dark"] {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0f14;
+    --fg: #e6edf3;
+    --muted: #9aa4b2;
+    --bg-alt: #0f141a;
+    --card: #0f141a;
+    --border: #1f2937;
+    --link: #8ab4f8;
+    --code-bg: #10151b;
+  }
+}
+@media (prefers-color-scheme: dark) { 
+  :root:not([data-theme="light"]) {
+    --bg: #0b0f14;
+    --fg: #e6edf3;
+    --muted: #9aa4b2;
+    --bg-alt: #0f141a;
+    --card: #0f141a;
+    --border: #1f2937;
+    --link: #8ab4f8;
+    --code-bg: #10151b;
+  }
+}
+
+html { color-scheme: light dark; }
+body { background: var(--bg); color: var(--fg); }
+a { color: var(--link); }
+
+/* Common Just-the-Docs areas */
+.site-header, .side-bar, .main-header, .breadcrumbs, .footer {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.main-content, .nav-list .nav-list-item, .search-input, .site-button, .label, .btn,
+pre, code, kbd, samp, .highlighter-rouge, .search-results {
+  background: var(--card);
+  color: var(--fg);
+  border-color: var(--border);
+}
+
+pre, code, .highlighter-rouge { background: var(--code-bg); }
+.search-input { border: 1px solid var(--border); }
+
+/* Toggle button */
+.theme-toggle {
+  margin-left: auto;
+  margin-right: 1rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--fg);
+  cursor: pointer;
+}
+.theme-toggle:hover { filter: brightness(1.05); }
