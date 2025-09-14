@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Wild Eirin appeared ヽ(\*ﾟ∀ﾟ\*)ﾉ
+# Wild EIRIN appeared ヽ(\*ﾟ∀ﾟ\*)ﾉ
 
 Hi there! I write about communication engineering, information theory, and math.
 
