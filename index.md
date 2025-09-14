@@ -13,13 +13,15 @@ Hi there! I write about communication engineering, information theory, and math.
 
 
 ### Recently obsessed in:
-- [Nerds: a menifesto](https://youtu.be/6v9-Cp1Lkw4?feature=shared)
+- [Nerds: a menifesto](https://youtu.be/6v9-Cp1Lkw4?feature=shared) Go check acapella science!!!
 - Jungian
 - Knots in Physics
 - Ito calculus
 
 
 ### Don't be hesitate to contact me!
+```
 ouo[dot]ee11[at]nycu[dot]edu[dot]tw
-
+```
+email is the fastest way to get in contact with me comparing to any other social media. if you find me not responding within three days, send it again because I probably missed it.
 > This site is powered by GitHub Pages + Jekyll (Just the Docs).
