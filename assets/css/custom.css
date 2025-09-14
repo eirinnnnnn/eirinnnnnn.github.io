@@ -133,3 +133,32 @@ pre, code, .highlighter-rouge { background: var(--code-bg); }
 :root[data-theme="dark"] .theme-toggle {
   background: #10151b; color: var(--jtd-fg); border-color: var(--jtd-border);
 }
+
+/* --- Fix white block in header on dark mode (JTD) --- */
+:root[data-theme="dark"] .site-header,
+:root[data-theme="dark"] .site-header .wrap,
+:root[data-theme="dark"] .site-header .site-header-inner,
+:root[data-theme="dark"] .site-header .search,
+:root[data-theme="dark"] .site-header .search-input-wrap {
+  background: var(--jtd-header-bg) !important;
+  color: var(--jtd-header-fg) !important;
+  border-color: var(--jtd-border) !important;
+}
+
+/* Inputs can still default to white on some browsers */
+:root[data-theme="dark"] .search-input {
+  background: #10151b !important;
+  color: var(--jtd-fg) !important;
+  border: 1px solid var(--jtd-border) !important;
+}
+
+/* If your theme draws a pseudo-element strip, neutralize it */
+:root[data-theme="dark"] .site-header::before,
+:root[data-theme="dark"] .site-header::after {
+  background: var(--jtd-header-bg) !important;
+}
+
+/* Make sure the page wrapper below the header isn't white */
+:root[data-theme="dark"] .main {
+  background: var(--jtd-bg) !important;
+}
