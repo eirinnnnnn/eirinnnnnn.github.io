@@ -96,4 +96,25 @@ env  = 2*abs(bb_f);
 And this is how we retrieve back this beautiful curve!
 
 
-![Alt text describing figure](/assets/img/DSPLab/01/bp_env.png)
+![bandpass signal vs. envelope](/assets/img/DSPLab/01/bp_env.png)
+
+### Error analysis and correction term
+
+By plotting out the difference of the number of samples $\Delta n$ between the measured and the theoretical value,
+
+
+![Delta_n vs. distance](/assets/img/DSPLab/01/delta_n_dist.png)
+
+We see that it is almost a linear model where the error decrease as the distance increase. Thus we choose to use a linear correction model as a function of $n_\mathrm{meas}$,
+
+$$
+ \Delta = a + b n_\mathrm{meas}
+$$
+
+We use a linear regression to fit the data and have $a\simeq53.14,\;b\simeq0.02469$
+
+
+The followig try to address the source of the error. 
+
+- wavefront & peak
+- wavepacket & distance
