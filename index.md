@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Wild EIRIN appeared!ヽ(\*ﾟ∀ﾟ\*)ﾉ
+# Wild EIRIN appearedヽ(\*ﾟ∀ﾟ\*)ﾉ
 
 Hi there! I write about communication engineering, information theory, and math.
 
@@ -18,7 +18,7 @@ Hi there! I write about communication engineering, information theory, and math.
 - 🧪 [**Projects**](./projects) 
 
 
-## my recent favorite equations
+## My recent favorite equations
 
 $$ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
 \quad \text{in } \mathbb{F}_{q^{m}}[x] $$
@@ -36,4 +36,5 @@ $$ x^{q^{m}} - 1 = \prod_{\alpha \in \mathbb{F}_{q^{m}}^{\times}} (x - \alpha)
 ```ouo[dot]ee11[at]nycu[dot]edu[dot]tw```
 
 This email is the fastest way to get in contact with me under any circumstances. If you find me not responding within three days, send it again because I probably missed it.
-> This site is powered by GitHub Pages + Jekyll (Just the Docs).
+
+> 學海無涯，回頭是岸。

@@ -39,9 +39,55 @@ rx_bp = filtfilt(dbp, rx_dc);
 
 - **Demodulation**  
 
-$$
+We perform the demodulation by
 
 $$
+x_\mathrm{de}(t) = x_\mathrm{bpf}(t) * e^{-j2\pi f_c t}
+$$
+
+Which in the frequency domain we can observe how the bandpass signal shifted to the baseband.
+
+```matlab
+w0 = 2*pi*fc/Fs;
+lo = exp(-1j*w0*n);
+bb = rx_bp .* lo;   
+```
 
 - **Lowpass Filter**
+
+We pass the signal through a lowpass filter after demodulation.
+
+```matlab
+% FIR: passband up to lp_fc, stopband starts at 1.6*lp_fc
+dlp = designfilt('lowpassfir', ...
+    'PassbandFrequency', lp_fc, ...
+    'StopbandFrequency', 1.6*lp_fc, ...
+    'PassbandRipple', 0.1, ...          % ~±0.05 dB
+    'StopbandAttenuation', 70, ...
+    'SampleRate', Fs);
+
+bb_f = filtfilt(dlp, real(bb)) + 1j*filtfilt(dlp, imag(bb));
+```
+
+
 - **Envelope**  
+
+Since our signal is carried by $f_c$, we can model it as
+
+$$
+x(t) = A\cos(2\pi f_c t + \phi)
+$$
+
+In the demodulation we have the real part
+
+$$
+    \mathrm{Re}\{x_\mathrm{de}(t)\} = x(t)\cos(2\pi f_c t) = \frac{A}{2} (\cos(\phi) + \cos(4\pi f_c t + \phi))
+$$
+
+We can see the amplitude was halved.
+
+So when taking the envelope we put a gain on it to compensate for the gain loss by 
+
+```matlab
+env  = 2*abs(bb_f);
+```
