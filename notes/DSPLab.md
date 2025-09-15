@@ -15,7 +15,7 @@ nav_order: 1
 ### Signal Processing
 
 Ultrasound Module Received signal data processing:
-![Alt text describing figure](/assets/img/block_diag_sigproc_flow.png)
+![Alt text describing figure](/assets/img/DSPLab/01/block_diag_sigproc_flow.png)
 
 carrier frequency $f_c=40$ kHz, signal bandwidth $f_w = \frac{1}{T_\mathrm{butst}} \simeq 5$ kHz
 
@@ -91,3 +91,9 @@ So when taking the envelope we put a gain on it to compensate for the gain loss 
 ```matlab
 env  = 2*abs(bb_f);
 ```
+
+
+And this is how we retrieve back this beautiful curve!
+
+
+![Alt text describing figure](/assets/img/DSPLab/01/bp_env.png)

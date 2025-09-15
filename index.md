@@ -4,8 +4,8 @@ title: Home
 nav_order: 1
 ---
 
-# Wild EIRIN appearedヽ(\*ﾟ∀ﾟ\*)ﾉ
-
+# Wild EIRIN appeared! \ ($\ ^\circ\ \forall\ ^\circ\ $)/
+ヽ(\*ﾟ∀ﾟ\*)ﾉ
 Hi there! I write about communication engineering, information theory, and math.
 
 <!-- Oh, and if you wonder, the icon of this website is the young Max Planck before he get into physics, and this is him during the discovery of quantum physics 
