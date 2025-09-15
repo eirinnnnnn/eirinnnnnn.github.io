@@ -111,7 +111,7 @@ $$
  \Delta = a + b n_\mathrm{meas}
 $$
 
-We use a linear regression to fit the data and have $a\simeq53.14,\;b\simeq0.02469$
+We use a linear regression to fit the data and have $a\simeq53.14,\;b\simeq-0.02469$
 
 
 The followig try to address the source of the error. 

@@ -8,7 +8,7 @@ nav_order: 2
 
 Eirin Li is an undergraduate student in Electrical and Electronic Engineering at National Yang Ming Chiao Tung University (NYCU), pursuing the BS+MS joint program. Her academic interests lie at the intersection of mathematics, communications, and information theory. She has engaged in research spanning robust MIMO beamforming, quantization, and coding theory, with an emphasis on bringing mathematical rigor to engineering problems. She is deeply motivated by the process of uncovering structure in mathematics and seeks to contribute to the development of information and communication theory with long-term aspirations in academia.
 
-## Not so formal About Me
+## the Not-so-formal About Me
 Eirin is an undergraduate with an unusual intensity for mathematics. Though too shy to parade her fascination in casual conversation, she follows her curiosity with quiet determination, spending late hours on problems, chasing new ideas, and often lingering after class to continue discussions with professors.
 
 ## Educations
