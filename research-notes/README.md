@@ -28,7 +28,7 @@ _Last updated: 2025-09-22_
 
 | Title | Author | Venue/Year | Notes | Slides | Paper|
 |------|-------------|-------|--------|--------|-------|
-| Li2025UniClassification | C.H. Li, Jerry | IEEE Trans. IT 2025 | - | – | - | [IEEE](https://ieeexplore.ieee.org/document/10619272)  
+| Li2025UniClassification | C.H. Li, Jerry | IEEE Trans. IT 2025 | - | – | [IEEE](https://ieeexplore.ieee.org/document/10619272)  
 ---
 
 ## Diffusion 
@@ -43,6 +43,9 @@ Current reading interests of diffusion is looking into the inverse problem appic
 
 ## ISAC
 
+| Title | Author | Venue/Year | Notes | Slides | Paper|
+|------|-------------|-------|--------|--------|-------|
+| Sphere packing | Conway–Sloane | Book (1998) | [Notes](topics/lattices/CSLG.md) | – | -  
 
 ## Algebraic Coding
 Some collections to have some excueses to talk with Francis :3
@@ -50,4 +53,4 @@ Some collections to have some excueses to talk with Francis :3
 
 | Title | Author | Venue/Year | Notes | Slides | Paper|
 |------|-------------|-------|--------|--------|-------|
-| daras2024DiffusionSurvey | - | Book (1998) | - | – | [arXiv](https://arxiv.org/abs/2410.00083)  
+| harris1992AG| Joe Harris | Book (1992) | - | – | -  
