@@ -47,10 +47,16 @@ Current reading interests of diffusion is looking into the inverse problem appic
 |------|-------------|-------|--------|--------|-------|
 | Sphere packing | Conway–Sloane | Book (1998) | [Notes](topics/lattices/CSLG.md) | – | -  
 
+## Beam Management
+
+| Title | Author | Venue/Year | Notes | Slides | Paper|
+|------|-------------|-------|--------|--------|-------|
+| Sphere packing | Conway–Sloane | Book (1998) | [Notes](topics/lattices/CSLG.md) | – | -  
+
 ## Algebraic Coding
 Some collections to have some excueses to talk with Francis :3
 
 
 | Title | Author | Venue/Year | Notes | Slides | Paper|
 |------|-------------|-------|--------|--------|-------|
-| harris1992AG| Joe Harris | Book (1992) | - | – | -  
+| harris1992AG | Joe Harris | Book (1992) | - | – | -  
