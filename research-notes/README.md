@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Paper Reading Collections"
+title: Paper Reading Collections
 nav_order: 4 
 has_chidren: true
 ---
@@ -16,8 +16,8 @@ Turning the piles of papers on my desk into the piles of list in this site.
 
 | Title | Author | Venue/Year | Notes | Slides | Paper|
 |------|-------------|-------|--------|--------|-------|
-| Sphere packing | Conway–Sloane | Book (1998) | [Notes](topics/lattices/CSLG.md) | – | -  
-| Erez2005GoodLattice | U. Erez; S. Litsyn; R. Zamir |  IEEE Trans. on IT | [Notes](topics/lattices/CSLG.md) | – | [IEEExplore](https://ieeexplore.ieee.org/document/1512416)
+| Sphere packing | Conway–Sloane | Book (1998) | - | – | -  
+| Erez2005GoodLattice | U. Erez; S. Litsyn; R. Zamir |  IEEE Trans. on IT | - | – | [IEEExplore](https://ieeexplore.ieee.org/document/1512416)
 
 
 ---
