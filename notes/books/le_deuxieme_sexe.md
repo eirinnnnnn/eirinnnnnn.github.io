@@ -1,5 +1,10 @@
-
-
+---
+layout: default
+title:  Le Deuxième Sexe
+parent: books
+nav_order: 0 
+---
+# Le Deuxième Sexe
 
 ### transcendance and immanence
 向上提升的存在超越性。完全正面的形容，指稱投射向未來的主動性，具有趨向，包含動作與活動的積極存在狀態。
