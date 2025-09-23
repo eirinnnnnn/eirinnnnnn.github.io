@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "the Exponential Reliability Advantage of Sequentiality in Universal Classification"
+title: Sequential Universal Classifier 
 status: "brief"
 tags: [sequential detection, universal classifier]
 parent: Detection Theory
