@@ -12,7 +12,7 @@ parent: Paper Reading Collections
 | Title | Author | Venue/Year | Notes | Slides | Paper|
 |------|-------------|-------|--------|--------|-------|
 | Li2025BravoCS | C.H. Li, Jerry | - | - | – | peer-rev  |
-| Shekhar2023BackwardSeqQCD| - | ICML2023  | - | – | - | 
+| Shekhar2023BackwardSeqQCD| - | ICML2023  | - | – | [arXiv](https://arxiv.org/pdf/2302.02544) | 
 
 ### Universal Classification 
 
