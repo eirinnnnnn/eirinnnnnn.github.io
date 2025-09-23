@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading notes 
+title: books 
 parent: Notes
 nav_order: 0 
 has_chidren: true
