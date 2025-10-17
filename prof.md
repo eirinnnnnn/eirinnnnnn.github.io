@@ -37,12 +37,11 @@ _Hunter x Hunter_
   - Communication / networking protocols, control theory in networks :contentReference[oaicite:15]{index=15}  
 - **Representative works to read:**
 - **Fit reasoning:**
-  - Strong coding / theory component  
+  - coding, theory component  
   - Good chance to bridge into security / network side  
-- **Status:**  Not yet contacted / reading  
-- **Next steps:**  
-  - Pick 2–3 of his recent high-impact papers and read them  
-  - Draft a personalized email citing overlap (e.g. “I’m interested in leveraging soft decoding techniques for network coding problems”)  
+- **Status:**  Not yet contacted, Not yet Reading 
+- **Todo:**  
+    - Pick some recent papers and some most cited ones
 - **Notes**
     - Seems like his current students focus on System Designs more.
     - (202510) GRA position posted on Jan, filled by Oct 9. Project-Oriented hiring.
