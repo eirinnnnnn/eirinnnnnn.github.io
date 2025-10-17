@@ -1,12 +1,12 @@
-# 🎯 PhD PI Hunt Log
-_A structured record of potential PhD advisors and research groups._
+# PhD PI Hunt Log
+_Hunter x Hunter_
 
-**Application cycle:** 2027 Fall  
-**Last updated:** YYYY-MM-DD  
+**Application cycle:** 2026 Fall  
+**Last updated:** 2025-10-17  
 
 ---
 
-## 🧭 Overview
+## Overview
 
 | - | Field | keywords | - |
 |------|--------|----------------|-----------|
