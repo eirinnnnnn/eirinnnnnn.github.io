@@ -44,7 +44,8 @@ _Hunter x Hunter_
     - Pick some recent papers and some most cited ones
 - **Notes**
     - Seems like his current students focus on System Designs more.
-    - (202510) GRA position posted on Jan, filled by Oct 9. Project-Oriented hiring.
+    - GRA position posted on Jan, filled by Oct 9. Project-Oriented hiring.(202510) 
+
 ---
 
 ## 🔐 3. Cryptography & Security
