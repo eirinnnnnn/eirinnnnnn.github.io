@@ -22,7 +22,7 @@ Eirin is an undergraduate with an unusual intensity for mathematics. Though too 
 ## Experience
 - Student Research Scholarship Recipient, NSTC (2024.02-2025.02) 
 - Zyxel Scholarships Recipient (2025 Spring)
-- Summer Visiting Student at UC Davis, host: [Prof. Zhi Ding](https://faculty.engineering.ucdavis.edu/ding/) (2025.07-08) 
+- Summer Visiting Student at UC Davis, host: [Prof. Zhi Ding](https://faculty.engineering.ucdavis.edu/ding/) (2025.07-08) [logs][notes/DINGsummer25_blog.md] 
 - Exchange student at Faculty of Engineering Science, KU Leuven. (2026 Spring)
 
 ## Publications
