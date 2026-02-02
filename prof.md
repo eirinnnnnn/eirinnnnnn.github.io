@@ -109,6 +109,17 @@ _Hunter x Hunter_
 🗒️ *Notes:*  
 - just put him here as if I am good enough. 
 
+### **Prof. Mary Wootters**, *Stanford EECS*  
+- **Homepage:** 
+- **Email:** venkatg@berkeley.edu  
+- **Research themes:**  
+  - Error-correcting codes: list decoding, folded RS, AG codes  
+  - Pseudorandomness, complexity theory, algebraic methods in CS  
+- **Representative works:**  
+- **Recent focus:**  
+- **Fit:**  
+- **Status:** 🟡 Reading papers  
+- **Todo:**  
 ---
 
 ## 📡 6. Signal Processing

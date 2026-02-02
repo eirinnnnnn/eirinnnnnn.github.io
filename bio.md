@@ -11,6 +11,7 @@ Eirin Li is an undergraduate student in Electrical and Electronic Engineering at
 ## the Not-so-formal About Me
 Eirin is an undergraduate with an unusual intensity for mathematics. Though too shy to parade her fascination in casual conversation, she follows her curiosity with quiet determination, spending late hours on problems, chasing new ideas, and often lingering after class to continue discussions with professors. -->
 
+
 ## Educations
 - B.S. in Department of Electrical and Electronic Engineering, National Yang-Ming Chiao-Tung University, Hsinchu City, Taiwan (2022.09-now)
 
@@ -22,3 +23,7 @@ Eirin is an undergraduate with an unusual intensity for mathematics. Though too 
 - Student Research Scholarship Recipient, NSTC (2024.02-2025.02) 
 - Zyxel Scholarships Recipient (2025 Spring)
 - Summer Visiting Student at UC Davis, host: [Prof. Zhi Ding](https://faculty.engineering.ucdavis.edu/ding/) (2025.07-08) 
+- Exchange student at Faculty of Engineering Science, KU Leuven. (2026 Spring)
+
+## Publications
+- Pin-Jing Li and Yu-Chih Huang, "Polar orbit decoding: Universal parallel soft decoding via automorphism orbits," 2026. [arXiv](https://arxiv.org/abs/2601.11373)
