@@ -22,7 +22,7 @@ Hi there! I'm Eirin, a master's student at NYCU working on coding theory with [P
 ## What's new
 - **2026.11** Presenting polar ensemble decoding at IEEE ITW 2026 (upcoming).
 - **2026.09** Started my M.S. in Communications Engineering at NYCU.
-- **2026.07** Poster at the IEEE East Asian School of Information Theory (EASIT) in Hsinchu.
+- **2026.07** [Poster](./assets/pdf/easit2026_poster_ped.pdf) at the IEEE East Asian School of Information Theory (EASIT) in Hsinchu.
 - **2026.01-06** Exchange semester at KU Leuven.
 - **2026.01** My first paper is on arXiv: [Parallel decoding of binary linear block codes via equivalent polar transformation class](https://arxiv.org/abs/2601.11373).
 
