@@ -19,7 +19,7 @@ I work on coding theory with [Prof. Yu-Chih (Jerry) Huang](https://sites.google.
 ## Talks and posters
 
 - "Parallel decoding of binary linear block codes via equivalent polar transformation class," IEEE Information Theory Workshop (ITW), Arizona, USA, Nov. 2026 (upcoming).
-- "Polar ensemble decoding of binary linear block codes," poster, IEEE East Asian School of Information Theory (EASIT), Hsinchu, Taiwan, Jul. 2026. [[poster]](./assets/pdf/easit2026_poster_ped.pdf)
+- "Polar ensemble decoding of binary linear block codes," poster, IEEE East Asian School of Information Theory (EASIT), Hsinchu, Taiwan, Jul. 2026. **Poster Award.** [[poster]](./assets/pdf/easit2026_poster_ped.pdf)
 
 ---
 

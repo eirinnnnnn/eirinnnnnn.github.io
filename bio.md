@@ -26,6 +26,7 @@ Eirin is an undergraduate with an unusual intensity for mathematics. Though too 
 
 
 ## Honors
+- Poster Award, IEEE East Asian School of Information Theory (EASIT) (2026)
 - Exchange Scholarship, NYCU (2026)
 - Dr. Shun-Yi Chu Zyxel Scholarship (2025)
 - Student Research Scholarship Recipient, NSTC (2024.02-2025.02)
