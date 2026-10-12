@@ -4,6 +4,10 @@ description: "Communication engineering, information theory, and math notes."
 url: "https://eirinnnnnn.github.io"
 baseurl: ""
 
+# Kept in the repo, but not built into the site
+exclude:
+  - prof.md
+
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
