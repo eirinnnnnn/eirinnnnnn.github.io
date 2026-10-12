@@ -12,9 +12,9 @@ Code that goes with my research and coursework. The research itself is on the [R
 
 Parallel polar-style decoding of binary linear block codes (extended BCH, extended Golay): simulation code, the logged curves behind the figures of my ITW 2026 paper, and plotting scripts.
 
-- **Attacks on Lattice-Based Cryptosystems**
+- [**Attacks on Lattice-Based Cryptosystems**](<./assets/pdf/kul_ca_project1_report.pdf>)
 
-Two course projects in Magma for Computer Algebra in Cryptography at KU Leuven (2026 Spring).
+Two course projects in Magma for Computer Algebra in Cryptography at KU Leuven (2026 Spring). Reports: [project 1](./assets/pdf/kul_ca_project1_report.pdf), [project 2](./assets/pdf/kul_ca_project2_report.pdf).
 
 - [**Portable DSP Devices**](<https://github.com/eirinnnnnn/DSPLAB_2025FALL>)
 
