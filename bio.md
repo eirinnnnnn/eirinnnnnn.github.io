@@ -12,18 +12,27 @@ Eirin Li is an undergraduate student in Electrical and Electronic Engineering at
 Eirin is an undergraduate with an unusual intensity for mathematics. Though too shy to parade her fascination in casual conversation, she follows her curiosity with quiet determination, spending late hours on problems, chasing new ideas, and often lingering after class to continue discussions with professors. -->
 
 
-## Educations
-- B.S. in Department of Electrical and Electronic Engineering, National Yang-Ming Chiao-Tung University, Hsinchu City, Taiwan (2022.09-now)
-
-- M.S. in Institute of Communication Engineering, National Yang-Ming Chiao-Tung University, Hsinchu City, Taiwan (2025.09-now)
+## Education
+- M.S. in Communications Engineering, National Yang Ming Chiao Tung University, Hsinchu, Taiwan (2026.09-now)
     - advisor: [Prof. Yu-Chih (Jerry) Huang](https://sites.google.com/site/ycjerryhuang/)
+
+- B.S. in Electrical and Electronics Engineering, National Yang Ming Chiao Tung University, Hsinchu, Taiwan (2022.09-2026.06)
 
 
 ## Experience
-- Student Research Scholarship Recipient, NSTC (2024.02-2025.02) 
-- Zyxel Scholarships Recipient (2025 Spring)
-- Summer Visiting Student at UC Davis, host: [Prof. Zhi Ding](https://faculty.engineering.ucdavis.edu/ding/) (2025.07-08) [logs](notes/DINGsummer25_blog.md) 
+- Research on coding theory with [Prof. Yu-Chih (Jerry) Huang](https://sites.google.com/site/ycjerryhuang/), NYCU (2025.09-now). See [Research](research.md).
 - Exchange student at Faculty of Engineering Science, KU Leuven. (2026 Spring)
+- Summer Visiting Student at UC Davis, host: [Prof. Zhi Ding](https://faculty.engineering.ucdavis.edu/ding/) (2025.07-08) [logs](notes/DINGsummer25_blog.md)
+
+
+## Honors
+- Exchange Scholarship, NYCU (2026)
+- Dr. Shun-Yi Chu Zyxel Scholarship (2025)
+- Student Research Scholarship Recipient, NSTC (2024.02-2025.02)
+- Dean's List, Department of Electrical Engineering, NYCU (Fall 2022, Spring 2023, Fall 2023, Spring 2024, Spring 2025)
+
 
 ## Publications
-- Pin-Jing Li and Yu-Chih Huang, "Polar orbit decoding: Universal parallel soft decoding via automorphism orbits," 2026. [arXiv](https://arxiv.org/abs/2601.11373)
+- Pin-Jing Li and Yu-Chih Huang, "Parallel decoding of binary linear block codes via equivalent polar transformation class," *IEEE Information Theory Workshop (ITW)*, Nov. 2026, to appear. [arXiv](https://arxiv.org/abs/2601.11373)
+
+Work in progress and talks are on the [Research](research.md) page.

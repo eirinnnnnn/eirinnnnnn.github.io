@@ -11,6 +11,12 @@ exclude:
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
+# Links in the top-right corner
+aux_links:
+  "GitHub":
+    - "https://github.com/eirinnnnnn"
+aux_links_new_tab: true
+
 # Markdown engine
 markdown: kramdown
 kramdown:
