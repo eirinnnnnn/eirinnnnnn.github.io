@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Detection Theory
-has_chidren: true
+has_children: true
 parent: Paper Reading Collections
 ---
 

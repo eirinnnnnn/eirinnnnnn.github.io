@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Beam Management 
-has_chidren: true
+has_children: true
 parent: Paper Reading Collections
 ---
 
 # Beam Management
 
 
-the current task now is to identify a nice formulation to encoporate
+the current task now is to identify a nice formulation to incorporate
 
 - 5G NR standard beam management process. (Hybrid, analog sweep & digital design)
 - ISAC. sensing task. should the initial access also include sensing objectives.
