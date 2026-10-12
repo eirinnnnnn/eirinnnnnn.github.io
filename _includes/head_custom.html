@@ -10,31 +10,48 @@
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
-
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png">
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
 
 <!-- Site CSS -->
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<!-- Dark mode toggle (respects system preference; persists in localStorage) -->
+<!-- Dark mode toggle: swaps in the theme's own light/dark stylesheet
+     (follows the system preference until the button is used; the choice persists in localStorage).
+     The theme minifies pages onto one line, so no // comments inside this script. -->
 <script>
 (function() {
   const LS_KEY = 'jtd-color-scheme';
+  const CSS_BASE = '{{ "/assets/css/just-the-docs-" | relative_url }}';
   const root = document.documentElement;
-  const saved = localStorage.getItem(LS_KEY);
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const scheme = saved || (prefersDark ? 'dark' : 'light');
-  root.dataset.theme = scheme;
+  const sheet = document.querySelector('link[rel="stylesheet"]');
+  const media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  let loaded = 'light'; /* the page ships with the light stylesheet */
 
-  function setScheme(next) {
-    root.dataset.theme = next;
-    localStorage.setItem(LS_KEY, next);
+  function saved() {
+    try { return localStorage.getItem(LS_KEY); } catch (e) { return null; }
+  }
+
+  function apply(scheme) {
+    root.dataset.theme = scheme;
+    if (sheet && scheme !== loaded) {
+      sheet.setAttribute('href', CSS_BASE + scheme + '.css');
+      loaded = scheme;
+    }
+  }
+
+  apply(saved() === 'dark' || (!saved() && media && media.matches) ? 'dark' : 'light');
+
+  if (media && media.addEventListener) {
+    media.addEventListener('change', function(e) {
+      if (!saved()) apply(e.matches ? 'dark' : 'light');
+    });
   }
 
   window.toggleColorScheme = function() {
-    setScheme(root.dataset.theme === 'dark' ? 'light' : 'dark');
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem(LS_KEY, next); } catch (e) {}
   };
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -42,6 +59,7 @@
     btn.className = 'theme-toggle';
     btn.type = 'button';
     btn.title = 'Toggle dark mode';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
     btn.onclick = window.toggleColorScheme;
     btn.textContent = root.dataset.theme === 'dark' ? '☾' : '☼';
 

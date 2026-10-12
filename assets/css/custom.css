@@ -1,164 +1,26 @@
+/* Light and dark colors come from the theme's own stylesheets
+   (swapped by the toggle in _includes/head_custom.html); only site-specific
+   touches live here. */
+
 /* Brand accent */
 :root { --brand-color: #0ea5e9; }
 .site-title, .site-button { color: var(--brand-color); }
 
-/* --- Color tokens --- */
-:root {
-  /* Light (default) */
-  --bg: #ffffff;
-  --fg: #1f2937;
-  --muted: #6b7280;
-  --bg-alt: #f8fafc;
-  --card: #ffffff;
-  --border: #e5e7eb;
-  --link: #2563eb;
-  --code-bg: #f3f4f6;
-}
-
-/* Dark (system pref OR manual toggle via [data-theme="dark"]) */
-:root[data-theme="dark"] {
-  :root:not([data-theme="dark"]) {
-    --bg: #0b0f14;
-    --fg: #e6edf3;
-    --muted: #9aa4b2;
-    --bg-alt: #0f141a;
-    --card: #0f141a;
-    --border: #1f2937;
-    --link: #8ab4f8;
-    --code-bg: #10151b;
-  }
-}
-@media (prefers-color-scheme: dark) { 
-  :root:not([data-theme="light"]) {
-    --bg: #0b0f14;
-    --fg: #e6edf3;
-    --muted: #9aa4b2;
-    --bg-alt: #0f141a;
-    --card: #0f141a;
-    --border: #1f2937;
-    --link: #8ab4f8;
-    --code-bg: #10151b;
-  }
-}
-
-html { color-scheme: light dark; }
-body { background: var(--bg); color: var(--fg); }
-a { color: var(--link); }
-
-/* Common Just-the-Docs areas */
-.site-header, .side-bar, .main-header, .breadcrumbs, .footer {
-  background: var(--bg);
-  color: var(--fg);
-}
-
-.main-content, .nav-list .nav-list-item, .search-input, .site-button, .label, .btn,
-pre, code, kbd, samp, .highlighter-rouge, .search-results {
-  background: var(--card);
-  color: var(--fg);
-  border-color: var(--border);
-}
-
-pre, code, .highlighter-rouge { background: var(--code-bg); }
-.search-input { border: 1px solid var(--border); }
+/* Avoid a white flash while the dark stylesheet loads */
+html[data-theme="dark"] { background-color: #27262b; color-scheme: dark; }
 
 /* Toggle button */
 .theme-toggle {
-  margin-left: auto;
+  flex-shrink: 0;
+  align-self: center;
   margin-right: 1rem;
   padding: 0.35rem 0.6rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--border);
-  background: var(--card);
-  color: var(--fg);
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
   cursor: pointer;
 }
-.theme-toggle:hover { filter: brightness(1.05); }
-
-/* ==== Dark-mode header & sidebar contrast fixes ==== */
-:root[data-theme="dark"] {
-  /* base */
-  --jtd-bg: #0b0f14;
-  --jtd-fg: #e6edf3;
-  --jtd-muted: #9aa4b2;
-  --jtd-link: #8ab4f8;
-  --jtd-border: #243041;
-
-  /* header / sidebar */
-  --jtd-header-bg: #0b0f14;   /* was too dark-grey; align with page bg */
-  --jtd-header-fg: #e6edf3;
-  --jtd-sidebar-bg: #0b0f14;
-  --jtd-sidebar-fg: #e6edf3;
-}
-
-/* Header */
-:root[data-theme="dark"] .site-header {
-  background: var(--jtd-header-bg) !important;
-  color: var(--jtd-header-fg) !important;
-  border-bottom: 1px solid var(--jtd-border) !important;
-}
-:root[data-theme="dark"] .site-title,
-:root[data-theme="dark"] .site-header a,
-:root[data-theme="dark"] .site-header .site-button {
-  color: var(--jtd-header-fg) !important;
-}
-
-/* Sidebar */
-:root[data-theme="dark"] .side-bar {
-  background: var(--jtd-sidebar-bg) !important;
-  color: var(--jtd-sidebar-fg) !important;
-  border-right: 1px solid var(--jtd-border) !important;
-}
-:root[data-theme="dark"] .nav-list .nav-list-link,
-:root[data-theme="dark"] .nav-list .nav-list-link:hover {
-  color: var(--jtd-sidebar-fg) !important;
-}
-
-/* Body + headings */
-:root[data-theme="dark"] body { background: var(--jtd-bg); color: var(--jtd-fg); }
-:root[data-theme="dark"] .main-content h1,
-:root[data-theme="dark"] .main-content h2,
-:root[data-theme="dark"] .main-content h3,
-:root[data-theme="dark"] .main-content h4,
-:root[data-theme="dark"] .main-content h5,
-:root[data-theme="dark"] .main-content h6 { color: var(--jtd-fg); }
-
-/* Links & inputs */
-:root[data-theme="dark"] a { color: var(--jtd-link); }
-:root[data-theme="dark"] .search-input {
-  background: #10151b; color: var(--jtd-fg);
-  border: 1px solid var(--jtd-border);
-}
-
-/* Toggle button (optional, for readability) */
-:root[data-theme="dark"] .theme-toggle {
-  background: #10151b; color: var(--jtd-fg); border-color: var(--jtd-border);
-}
-
-/* --- Fix white block in header on dark mode (JTD) --- */
-:root[data-theme="dark"] .site-header,
-:root[data-theme="dark"] .site-header .wrap,
-:root[data-theme="dark"] .site-header .site-header-inner,
-:root[data-theme="dark"] .site-header .search,
-:root[data-theme="dark"] .site-header .search-input-wrap {
-  background: var(--jtd-header-bg) !important;
-  color: var(--jtd-header-fg) !important;
-  border-color: var(--jtd-border) !important;
-}
-
-/* Inputs can still default to white on some browsers */
-:root[data-theme="dark"] .search-input {
-  background: #10151b !important;
-  color: var(--jtd-fg) !important;
-  border: 1px solid var(--jtd-border) !important;
-}
-
-/* If your theme draws a pseudo-element strip, neutralize it */
-:root[data-theme="dark"] .site-header::before,
-:root[data-theme="dark"] .site-header::after {
-  background: var(--jtd-header-bg) !important;
-}
-
-/* Make sure the page wrapper below the header isn't white */
-:root[data-theme="dark"] .main {
-  background: var(--jtd-bg) !important;
-}
+.theme-toggle:hover { border-color: currentColor; }
